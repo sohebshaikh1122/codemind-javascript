@@ -1,0 +1,22 @@
+console.log(`-----TASK-1--------`);
+var bankName;
+console.log(`(BEFORE INITIALIZATION)-Declaring the varible value: ${bankName} and Dataype: ${typeof(bankName)}`);
+bankName='SBI BANK';
+console.log(`(AFTER INITIALIZATION)-Assign the value to variable value: ${bankName} and Datatype: ${typeof(bankName)}`);
+console.log(`************************`);
+console.log(`-----TASK-2--------`);
+var marks='90%';
+console.log(`Datatype of variable:${typeof(marks)} and value is:${marks}`);
+console.log(`************************`);
+console.log(`-----TASK-3--------`);
+var isWorking;
+console.log(`(BEFORE INITIALIZATION)-The value of Declare variable is:${isWorking} and Datatype:${typeof(isWorking)}`);
+isWorking=true;
+console.log(`(AFTER INITIALIZATION)-The value of Assign variable is:${isWorking} and Datatype:${typeof(isWorking)}`);
+console.log(`************************`);
+console.log(`-----TASK-4--------`);
+var totalCount="Hundred and Seven";
+console.log(`(BEFORE INITIALIZATION)-The Value of variable:${totalCount} and Datatype:${typeof(totalCount)}`);
+totalCount=107;
+console.log(`(AFTER INITIALIZATION)-The Value of variable:${totalCount} and Datatype:${typeof(totalCount)}`);
+
