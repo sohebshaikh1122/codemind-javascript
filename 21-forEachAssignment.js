@@ -21,7 +21,7 @@ let array_negative =[];
 arrayNumbers.forEach((Element ,index, arrayNumbers)=>
 {
     if (Element<0) {
-        array_negative.push(Element)
+        array_negative.push(Element);
     }
 })
 console.log(array_negative);
