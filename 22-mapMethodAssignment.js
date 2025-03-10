@@ -3,8 +3,6 @@ console.log(`Given Array :- [20,11,40,25,23,11,9,31,60,2,19]`);
 console.log(`---log the array adding 10 in each element using map arrow function------`);
 
 const arrayNumber =[20,11,40,25,23,11,9,31,60,2,19];
-const result = new Map(); 
-
 const ans=arrayNumber.map(element => {
 
     element=element+10;
